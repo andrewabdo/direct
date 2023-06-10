@@ -1,0 +1,141 @@
+  html,
+  body,
+  #viewDiv {
+     padding: 0;
+     margin: 0;
+     height: 100%;
+     width: 100%;
+
+  }
+
+.all  h1 {
+     text-align: left;
+     padding-top: 350px;
+     padding-left: 650px;
+     font-weight: bold;
+
+  }
+.all h3 {
+      text-align: left;
+         padding-top: 5px;
+         padding-left: 680px;
+         font-weight: bold;
+  }
+ .all button{
+   background-color: #999;
+   border: 1px black solid;
+   border-radius: 0.5rem;
+  }
+ ul button a{
+   color: black;
+   text-decoration: none;
+   font-size: 15px;
+   text-align: center;
+  }
+ .link1  button a :hover{
+     color: white;
+     text-decoration: none;
+     font-size: 15px;
+  }
+  ul{
+   text-align: center;
+   line-height: 2rem;
+      margin-right: 50px;
+         padding-bottom: 500px;
+}
+      ul i .link1 {
+         text-align: center;
+         line-height: 8rem;
+      }
+ul i .link2{
+text-align: center;
+line-height: 5rem;
+               
+}
+@media  only screen and(max-width:750px) {
+.all {
+      text-align: center;
+
+      margin-left: px;
+      font-weight: bold;
+      width: 150px;
+      max-width: 150px;
+
+   }
+
+     * {
+         max-width: 100px;
+      }
+   
+      body {
+         margin: 0 auto;
+         padding: 0;
+         -webkit-box-sizing: border-box;
+         box-sizing: border-box;
+         background-repeat: no-repeat;
+         background-position: top 0 right 0;
+         font-family: "Poppins", sans-serif;
+         color: black;
+      }
+   
+   
+   
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      a,
+      ul,
+      li,
+      p,
+      span,
+      button {
+         margin: 0;
+         padding: 0;
+         text-decoration: none;
+         color: black;
+      }ll h3 {
+      text-align: left;
+      padding-top: 5px;
+      padding-left: 300px;
+      font-weight: bold;
+   }
+
+   .all button {
+      background-color: #999;
+      border: 1px black solid;
+      border-radius: 0.5rem;
+   }
+
+   ul button a {
+      color: black;
+      text-decoration: none;
+      font-size: 15px;
+      text-align: center;
+   }
+
+   .link1 button a :hover {
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+   }
+
+   ul {
+      text-align: center;
+      line-height: 2rem;
+      margin-right: 50px;
+      padding-bottom: 500px;
+   }
+
+   ul i .link1 {
+      text-align: center;
+      line-height: 8rem;
+   }
+
+   ul i .link2 {
+      text-align: center;
+      line-height: 5rem;
+}
+}
